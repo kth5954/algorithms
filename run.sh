@@ -13,5 +13,10 @@ g++ -o $file_name $cpp_file
 # 컴파일된 실행파일을 실행한다.
 ./$file_name
 
+# 엔터를 입력받으면 실행파일을 삭제한다.
+read -p "---------All done. Press enter to delete the executable file and exit.---------"
+rm $file_name
+
+
 # 실행 권한이 없다는 오류가 발생 시(permission denied: ./run.sh: Permission denied), chmod 명령어로 실행 권한을 부여해준다.
 chmod +x run.sh
