@@ -23,3 +23,8 @@ $ git config user.email "Your Email"
 $ git config --global --unset user.name
 $ git config --global --unset user.email
 ```
+
+## Github 레포지토리 연결 해제
+```bash
+$ git remote rm origin
+```

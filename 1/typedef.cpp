@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+typedef int i;
 int main()
 {
-    cout << 1 << "\n";
+    i a = 1;
+    cout << a << '\n';
     return 0;
 }
